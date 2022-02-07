@@ -1,0 +1,21 @@
+.projects {
+  cursor: pointer;
+}
+
+.modal-title,
+.modal-body {
+  color: black !important;
+}
+
+.modal-body a {
+  font-weight: 600 !important;
+  color: rgb(74, 74, 253) !important;
+}
+
+.modal-showplace {
+  background-color: rgb(219, 217, 217, 0.1);
+}
+
+.modal-image {
+  padding: 15px 5px;
+}
