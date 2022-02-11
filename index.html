@@ -215,8 +215,23 @@
       <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s"
         data-wow-delay="0.5s" style="position: relative !important;">
         <div class="portfolioContainer row">
-          <!-- Tradifi btn -->
+          <!-- Kuda App -->
           <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-1">
+            <div class="btn" data-toggle="modal" data-target="#project-kuda">
+              <figure>
+                <img class="img-fluid" style="background-size: cover;"
+                  src="./assets/images/portfolio/kuda/splash-screen.png" alt="img01" />
+                <figcaption class="fig-caption">
+
+                  <h5 class="title">Kuda App</h5>
+                  <span class="sub-title"></span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Tradifi btn -->
+          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-2">
             <div class="btn" data-toggle="modal" data-target="#project-tradify">
               <figure>
                 <img class="img-fluid" style="background-size: cover;"
@@ -231,7 +246,7 @@
           </div>
 
           <!-- Fitness central btn -->
-          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-4">
+          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-3">
             <div class="btn" data-toggle="modal" data-target="#project-fitness-central">
               <figure>
                 <img src="./assets/images/portfolio/fitness-central/20200426090515-10152998.png" alt="img04" />
@@ -243,7 +258,7 @@
           </div>
 
           <!-- Ezwash customer btn -->
-          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-3">
+          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-4">
             <div class="btn" data-toggle="modal" data-target="#project-ezwash-customer">
               <figure>
                 <img src="./assets/images/portfolio/ezwash-customer/20200426025909-10152101.png" alt="img03" />
@@ -267,7 +282,7 @@
           </div>
 
           <!-- Ezwash admin btn -->
-          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-2">
+          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-6">
             <div class="btn" data-toggle="modal" data-target="#project-ezwash-admin">
               <figure>
                 <img src="./assets/images/portfolio/ezwash-admin/20200426083308-10152954.png" alt="img02" />
@@ -289,6 +304,55 @@
 
       <!-- Project Modals -->
       <div id="project-modals">
+
+        <!-- Project Kuda -->
+        <div class="modal fade" id="project-kuda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Kuda App</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Kuda is a foremost digital banking application with over 2 million users. It helps customers perform
+                transactions such as interbank transfers, bill payments. It also has budgeting, saving and investment
+                features amongst others. There are security settings such as masking figures, panic balance set up,
+                finger print authentication etc.
+                <br /> <br />
+
+                Technologies used: Kotlin, MVVM, Dagger2, RxJava, Coroutines, Junit, Retrofit, Firebase.<br /><br />
+
+                Playstore: <a target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.kudabank.app&hl=en&gl=U">https://play.google.com/store/apps/details?id=com.kudabank.app&hl=en&gl=U</a>
+
+                <br /><br />
+
+                <div class="modal-showplace">
+                  <div class="modal-image">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/splash-screen.png" alt="img01">
+                  </div>
+                  <div class="modal-image">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/landing-page-signed-in.png" alt="img03">
+                  </div>
+                  <div class="modal-image">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/Bank.png" alt="img02">
+                  </div>
+                  <div class="modal-image">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/Payments.png" alt="img04">
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <!-- Project tradifi -->
         <div class="modal fade" id="project-tradify" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
