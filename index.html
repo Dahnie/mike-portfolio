@@ -187,7 +187,7 @@
               quora.<br>
             </p>
             <p> You can also view <a target="_blank"
-                href="https://drive.google.com/file/d/1oAxhDDrSTzBUTOK44HHmMcA2sKOICQvu/view"
+                href="https://drive.google.com/file/d/1B7OZxjVYbknCv67ATZjSQ_aLjXotj4lr/view?usp=drive_link"
                 style="color: rgb(71, 71, 255);">my resume here</a></p>
           </div>
         </div>
@@ -214,6 +214,21 @@
       <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s"
         data-wow-delay="0.5s" style="position: relative !important;">
         <div class="portfolioContainer row">
+          <!-- Inspire Sleep App -->
+          <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-0.5">
+            <div class="btn" data-toggle="modal" data-target="#project-inspire-sleep">
+              <figure>
+                <img class="img-fluid" style="background-size: cover;"
+                  src="./assets/images/portfolio/inspire-sleep/inspire 1.webp" alt="img01" />
+                <figcaption class="fig-caption">
+
+                  <h5 class="title">Inspire Sleep</h5>
+                  <span class="sub-title"></span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
           <!-- Kuda App -->
           <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-1">
             <div class="btn" data-toggle="modal" data-target="#project-kuda">
@@ -244,25 +259,25 @@
             </div>
           </div>
 
-          <!-- Fitness central btn -->
+          <!-- Pure Fitness Africa btn -->
           <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-3">
             <div class="btn" data-toggle="modal" data-target="#project-fitness-central">
               <figure>
                 <img src="./assets/images/portfolio/fitness-central/20200426090515-10152998.png" alt="img04" />
                 <figcaption class="fig-caption">
-                  <h5 class="title">Fitness central Application</h5>
+                  <h5 class="title">Pure Fitness Africa</h5>
                 </figcaption>
               </figure>
             </div>
           </div>
 
-          <!-- Ezwash customer btn -->
+          <!-- My Wash customer btn -->
           <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-4">
             <div class="btn" data-toggle="modal" data-target="#project-ezwash-customer">
               <figure>
                 <img src="./assets/images/portfolio/ezwash-customer/20200426025909-10152101.png" alt="img03" />
                 <figcaption class="fig-caption">
-                  <h5 class="title">EzWash Customer application</h5>
+                  <h5 class="title">My Wash Customer Application</h5>
                 </figcaption>
               </figure>
             </div>
@@ -280,13 +295,13 @@
             </div>
           </div>
 
-          <!-- Ezwash admin btn -->
+          <!-- My Wash admin btn -->
           <div class="grid-item col-md-4 col-sm-6 col-xs-12 projects" data-project="project-6">
             <div class="btn" data-toggle="modal" data-target="#project-ezwash-admin">
               <figure>
                 <img src="./assets/images/portfolio/ezwash-admin/20200426083308-10152954.png" alt="img02" />
                 <figcaption class="fig-caption">
-                  <h5 class="title">EzWash Admin application</h5>
+                  <h5 class="title">My Wash Admin Application</h5>
                 </figcaption>
               </figure>
             </div>
@@ -303,6 +318,59 @@
 
       <!-- Project Modals -->
       <div id="project-modals">
+
+        <!-- Project Inspire Sleep -->
+        <div class="modal fade" id="project-inspire-sleep" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Inspire Sleep App</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                The Inspire Sleep app helps to monitor the sleeping experience of registered patients diagnosed with
+                sleep apnea. This is done by pairing a bluetooth-enabled Inspire Sleep Remote with the application in
+                order to view patients sleep data and upload to the clinician portal. The remote gets patient’s sleep
+                data from an IPG which is implanted on the patient’s chest to provide a smooth sleeping experience for
+                the patient.
+
+                The app also provides education on the Inspire therapy, connects patients to physicians, and enables
+                periodic data sharing between Inspire patients and their clinicians.
+                <br /> <br />
+
+                Technologies used: Kotlin, MVVM, Dagger2, Coroutines, JUnit, Retrofit, Firebase, BLE Sdk, Mockito, Azure
+                CI, WorkManager.<br /><br />
+
+                Playstore: <a target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.inspiremedical&hl=en&gl=US">https://play.google.com/store/apps/details?id=com.inspiremedical&hl=en&gl=US</a>
+
+                <br /><br />
+
+                <div class="modal_showplace_container">
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/inspire-sleep/inspire 1.webp" alt="img01">
+                  </div>
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/inspire-sleep/inspire 2.webp" alt="img03">
+                  </div>
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/inspire-sleep/inspire 3.webp" alt="img02">
+                  </div>
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/inspire-sleep/inspire 4.webp" alt="img04">
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Project Kuda -->
         <div class="modal fade" id="project-kuda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
@@ -329,7 +397,7 @@
 
                 <br /><br />
 
-                <div class="modal-showplace">
+                <!-- <div class="modal-showplace">
                   <div class="modal-image">
                     <img class="img-fluid" src="./assets/images/portfolio/kuda/splash-screen.png" alt="img01">
                   </div>
@@ -340,6 +408,21 @@
                     <img class="img-fluid" src="./assets/images/portfolio/kuda/Bank.png" alt="img02">
                   </div>
                   <div class="modal-image">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/Payments.png" alt="img04">
+                  </div>
+                </div> -->
+
+                <div class="modal_showplace_container">
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/splash-screen.png" alt="img01">
+                  </div>
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/landing-page-signed-in.png" alt="img03">
+                  </div>
+                  <div class="modal_image_wrapper">
+                    <img class="img-fluid" src="./assets/images/portfolio/kuda/Bank.png" alt="img02">
+                  </div>
+                  <div class="modal_image_wrapper">
                     <img class="img-fluid" src="./assets/images/portfolio/kuda/Payments.png" alt="img04">
                   </div>
                 </div>
@@ -372,27 +455,26 @@
                 of
                 their investments and liquidate before the investment maturity date.<br /> <br />
 
-                Technologies used: Java, Kotlin, Retrofit, Jetpack Libraries, MVVM.<br /><br />
+                Technologies used: Java, Kotlin, Retrofit, Executors.<br /><br />
 
                 Playstore: <a target="_blank"
                   href="https://play.google.com/store/apps/details?id=com.tradefi.tplus">https://play.google.com/store/apps/details?id=com.tradefi.tplus</a>
 
                 <br /><br />
-
-                <div class="modal-showplace">
-                  <div class="modal-image">
+                <div class="modal_showplace_container">
+                  <div class="modal_image_wrapper">
                     <img class="img-fluid" src="./assets/images/portfolio/tradefi/20210704134549-12361246.png"
                       alt="img01">
                   </div>
-                  <div class="modal-image">
+                  <div class="modal_image_wrapper">
                     <img class="img-fluid" src="./assets/images/portfolio/tradefi/20210704134608-12361250.png"
                       alt="img02">
                   </div>
-                  <div class="modal-image">
+                  <div class="modal_image_wrapper">
                     <img class="img-fluid" src="./assets/images/portfolio/tradefi/20210704134800-12361254.png"
                       alt="img03">
                   </div>
-                  <div class="modal-image">
+                  <div class="modal_image_wrapper">
                     <img class="img-fluid" src="./assets/images/portfolio/tradefi/20210704134841-12361262.png"
                       alt="img04">
                   </div>
@@ -405,13 +487,13 @@
             </div>
           </div>
         </div>
-        <!-- project Ezwash Admin Application -->
+        <!-- project My Wash Admin Application -->
         <div class="modal fade" id="project-ezwash-admin" tabindex="-1" role="dialog"
           aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">EzWash Admin application</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">My Wash Admin Application</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -420,50 +502,48 @@
                 This application(a tablet app) is used by the Ezwash laundromat employees for creating wash orders for
                 customers, managing customer data and orders, and keeping track of customer transactions. The app prints
                 labels with QRcode and other data which are attached to bags of clothes by the admin for easy
-                identification.
-                This app was not uploaded to playstore because it is being used in-house by the laundromat
-                admins.<br /><br />
+                identification. This app is being used in-house by the laundromat staff only, which is why it is not
+                available on playstore.<br /><br />
 
                 Technologies used: Java, Kotlin, Firebase, Retrofit, Koin, Idzprinter SDK, MVVM. <br />
               </div>
 
 
               <br /><br />
-
-              <div class="modal-showplace">
-                <div class="modal-image">
+              <div class="modal_showplace_container">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083055-10152934.png"
                     alt="img01">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083109-10152938.png"
                     alt="img02">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083249-10152942.png"
                     alt="img03">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083255-10152946.png"
                     alt="img04">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083301-10152950.png"
                     alt="img05">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083308-10152954.png"
                     alt="img06">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083313-10152958.png"
                     alt="img07">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083318-10152961.png"
                     alt="img08">
                 </div>
-                <div class="modal-image">
+                <div class="modal_image_wrapper">
                   <img class="img-fluid" src="./assets/images/portfolio/ezwash-admin/20200426083324-10152962.png"
                     alt="img09">
                 </div>
@@ -474,71 +554,71 @@
             </div>
           </div>
         </div>
-        <!-- Project EzWash Customer application -->
+        <!-- Project My Wash Customer application -->
         <div class="modal fade" id="project-ezwash-customer" tabindex="-1" role="dialog"
           aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">EzWash Customer application</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">My Wash Customer application</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                EzWash customer application was built for customers to keep track of the staus of their wash orders. It
-                also helps customers to make online payments for orders and know the status of their
-                transactions.<br /> <br />
+                My wash customer application was built for customers to keep track of the staus of their wash orders. It
+                also helps customers to make online payments for orders and know the status of their transactions.<br />
+                <br />
 
-                Technologies used: Firebase, Java, Kotlin, Koin, Fuel, Onesignal sdk.<br /><br />
+                Technologies used: Firebase, Java, Kotlin, MVVM, Koin, Fuel, Onesignal sdk.<br /><br />
 
                 Playstore: <a target="_blank"
                   href="https://play.google.com/store/apps/details?id=com.initsng.ezwash&hl=en">https://play.google.com/store/apps/details?id=com.initsng.ezwash&hl=en</a>
               </div>
 
               <br /><br />
-
-              <div class="modal-showplace">
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025829-10152077.png"
+              <div class="modal_showplace_container">
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025921-10152102.png"
+                    alt="img00">
+                </div>
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025909-10152101.png"
                     alt="img01">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025834-10152082.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025903-10152098.png"
                     alt="img02">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025838-10152085.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025859-10152094.png"
                     alt="img03">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025843-10152086.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025853-10152093.png"
                     alt="img04">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025848-10152090.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025829-10152077.png"
                     alt="img05">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025853-10152093.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025848-10152090.png"
                     alt="img06">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025859-10152094.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025838-10152085.png"
                     alt="img07">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025903-10152098.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025834-10152082.png"
                     alt="img08">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025909-10152101.png"
+                <div class="modal_image_wrapper">
+                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025843-10152086.png"
                     alt="img09">
                 </div>
-                <div class="modal-image">
-                  <img class="img-fluid" src="./assets/images/portfolio/ezwash-customer/20200426025921-10152102.png"
-                    alt="img010">
-                </div>
+
               </div>
             </div>
             <div class="modal-footer">
@@ -547,13 +627,13 @@
           </div>
         </div>
       </div>
-      <!-- Project Fitness central application -->
+      <!-- Project Pure Fitness Africa application -->
       <div class="modal fade" id="project-fitness-central" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Fitness central Application</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Pure Fitness Africa</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -570,21 +650,20 @@
             </div>
 
             <br /><br />
-
-            <div class="modal-showplace">
-              <div class="modal-image">
+            <div class="modal_showplace_container">
+              <div class="modal_image_wrapper">
                 <img class="img-fluid" src="./assets/images/portfolio/fitness-central/20200426090508-10152990.png"
                   alt="img01">
               </div>
-              <div class="modal-image">
+              <div class="modal_image_wrapper">
                 <img class="img-fluid" src="./assets/images/portfolio/fitness-central/20200426090511-10152993.png"
                   alt="img02">
               </div>
-              <div class="modal-image">
+              <div class="modal_image_wrapper">
                 <img class="img-fluid" src="./assets/images/portfolio/fitness-central/20200426090513-10152994.png"
                   alt="img03">
               </div>
-              <div class="modal-image">
+              <div class="modal_image_wrapper">
                 <img class="img-fluid" src="./assets/images/portfolio/fitness-central/20200426090515-10152998.png"
                   alt="img04">
               </div>
@@ -614,24 +693,22 @@
             explanation of every proverb. Also keywords of proverbs can be searched using English or Yoruba
             language.<br /> <br />
 
-            Technologies used: Firebase, Java, content provider.<br /><br />
+            Technologies used: Firebase, Java, Kotlin, MVVM, Jetpack Compose, Flows.<br /><br />
 
-            Playstore: <a target="_blank"
-              href="https://play.google.com/store/apps/details?id=example.yorubaproverbs&hl=en">https://play.google.com/store/apps/details?id=example.yorubaproverbs&hl=en</a>
+            Playstore: <a target="_blank" href="https://i.diawi.com/1oYaRb">https://i.diawi.com/1oYaRb</a>
           </div>
 
           <br /><br />
-
-          <div class="modal-showplace">
-            <div class="modal-image">
+          <div class="modal_showplace_container">
+            <div class="modal_image_wrapper">
               <img class="img-fluid" src="./assets/images/portfolio/yoruba-proverbs/20200426091254-10153009.png"
                 alt="img01">
             </div>
-            <div class="modal-image">
+            <div class="modal_image_wrapper">
               <img class="img-fluid" src="./assets/images/portfolio/yoruba-proverbs/20200426091256-10153010.png"
                 alt="img02">
             </div>
-            <div class="modal-image">
+            <div class="modal_image_wrapper">
               <img class="img-fluid" src="./assets/images/portfolio/yoruba-proverbs/20200426091258-10153014.png"
                 alt="img03">
             </div>
